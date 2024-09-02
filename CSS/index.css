@@ -42,6 +42,7 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
+  padding: 16px;
   top: 0;
   left: 0;
 }
@@ -110,6 +111,13 @@ input::placeholder {
   border: none;
   background: none;
   cursor: pointer;
+}
+
+#message {
+  font-family: sans-serif;
+  color: red;
+  font-size: 12px;
+  display: none;
 }
 
 /* media query */
